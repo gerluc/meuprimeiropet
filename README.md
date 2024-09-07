@@ -6,6 +6,8 @@
 
 Esse projeto web feito durante a Imersão Dev Alura e Google Gemini te ajuda a encontrar o pet ideal para você! Com uma busca simples, você pode descobrir diversas raças de cães e gatos, com informações detalhadas sobre cada uma. Basta digitar algumas palavras-chave, como "cão pequeno e brincalhão" ou "gato calmo para apartamento", e a aplicação fará uma busca inteligente em nosso banco de dados e te apresentará os resultados mais relevantes.
 
+**O melhor de tudo?** Nossa aplicação é **totalmente responsiva**, ou seja, funciona perfeitamente em qualquer dispositivo, seja no seu computador, tablet ou smartphone!
+
 **Como funciona?**
 
 1. **Busca Intuitiva:** Digite as características do pet que você procura no campo de pesquisa.
@@ -22,6 +24,9 @@ Esse projeto web feito durante a Imersão Dev Alura e Google Gemini te ajuda a e
 * **HTML:** Estrutura da página.
 * **CSS:** Estilização da página.
 * **JavaScript:** Lógica da aplicação, interação com o usuário e manipulação do DOM.
+
+**Totalmente Responsivo**
+Você pode usar a aplicação em computador, tablet, celuar
 
 **Como usar:**
 
