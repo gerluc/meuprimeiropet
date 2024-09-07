@@ -96,7 +96,7 @@ section,
 /* Estiliza os inputs dentro das seções */
 section input {
     width: 50%;
-    min-width: 30rem; /* Largura dos inputs */
+    min-width: 17rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
@@ -135,7 +135,7 @@ section p.msg{
     font-style: italic;
     font-size: 0.8rem;
     width: 45%;
-    min-width: 30rem;
+    min-width: 17rem;
     padding-inline: 20px;
     color: #3322116b;
 }

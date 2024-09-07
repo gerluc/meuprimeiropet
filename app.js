@@ -46,7 +46,7 @@ function pesquisar() {
             // se dadoPesquisavel includes campoPesquisa
                 if (dadoPesquisavel.includes(palavra)) {
                     // cria um novo elemento
-                    url = buscarImagem(cachorro.id, false);
+                    url = "/img/cao.png"; // buscarImagem(cachorro.id, false);
                     resultados += `
                     <div class="card">
                         <img src="${url}" alt="Imagem do pet">
@@ -115,7 +115,7 @@ function pesquisar() {
         // se dadoPesquisavel includes campoPesquisa
             if (dadoPesquisavel.includes(palavra)) {
                 // cria um novo elemento
-                url = buscarImagem(gato.id, false);
+                // url = buscarImagem(gato.id, false);
                 resultados += `
                 <div class="card">
                     <img id="${gato.id}" src="/img/gato.png" alt="Imagem do gato">
