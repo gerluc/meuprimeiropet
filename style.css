@@ -38,6 +38,10 @@ main{
     width: 75%;
     margin: 2rem;
     margin-inline: auto;
+    margin-bottom: 100px;
+}
+.footerpad{
+    height: 50px;
 }
 /* imagem do BG suavizada*/
 .background-image {
@@ -133,6 +137,11 @@ section p.msg{
     width: 45%;
     min-width: 30rem;
     padding-inline: 20px;
+    color: #3322116b;
+}
+
+.entrada-dado:hover span{
+    color: #332211;
 }
 
 /* Estiliza os botões dentro das seções */
@@ -177,6 +186,9 @@ section button:hover {
        -moz-column-gap: 2rem;
             column-gap: 2rem;
     row-gap: 2rem;    
+    -webkit-box-align: start;    
+        -ms-flex-align: start;    
+            align-items: flex-start;
 }
 
 /* Estiliza cada item de resultado */
@@ -253,11 +265,18 @@ footer {
     background-color: #F5F7F8; /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 0; /* Espaçamento interno */
+    padding: 0.5rem; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    /* position: absolute; Posiciona o rodapé */
+    position: fixed; /*Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+}
+
+.voto span{
+    color: #cacdf9; ;
+}
+.voto:hover span{
+    color: #fff;
 }
 
 @media (max-width: 768px) {

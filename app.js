@@ -30,6 +30,7 @@ function pesquisar() {
     // Inicializa uma string vazia para armazenar os resultados
     let dadoPesquisavel = "";
     let resultados = "";
+    let url = "";
 
     // Itera sobre cada dado da lista de dados
     for (let cachorro of racasCachorros) {
@@ -45,7 +46,7 @@ function pesquisar() {
             // se dadoPesquisavel includes campoPesquisa
                 if (dadoPesquisavel.includes(palavra)) {
                     // cria um novo elemento
-                    url = buscarImagem(cachorro.id);
+                    url = buscarImagem(cachorro.id, false);
                     resultados += `
                     <div class="card">
                         <img src="${url}" alt="Imagem do pet">
@@ -94,6 +95,7 @@ function pesquisar() {
                         </table>
                     </div>
                 `;
+                break;
                 }
             }
 
@@ -113,10 +115,10 @@ function pesquisar() {
         // se dadoPesquisavel includes campoPesquisa
             if (dadoPesquisavel.includes(palavra)) {
                 // cria um novo elemento
-                // url = buscarImagem(cachorro.id);
+                url = buscarImagem(gato.id, false);
                 resultados += `
                 <div class="card">
-                    <img src="/img/gato.png" alt="Imagem do pet">
+                    <img id="${gato.id}" src="/img/gato.png" alt="Imagem do gato">
                     <h2 class="gato">${gato.raca}</h2>
                     <table>
                         <tr>
@@ -162,6 +164,8 @@ function pesquisar() {
                     </table>
                 </div>
             `;
+            buscarImagem(gato.id, true);
+            break;
             }
         }
     }

@@ -208,7 +208,8 @@ let racasGatos = [
         necessidadeDeAtencao: "Alta",
         companhiaOuSozinho: "Companhia",
         idealPara: "Pessoas ativas, apartamentos",
-        pontosDeAtencao: "Problemas respiratórios em alguns casos"
+        pontosDeAtencao: "Problemas respiratórios em alguns casos",
+        id: "siam"
     },
     {
         raca: "Persa",
@@ -221,7 +222,8 @@ let racasGatos = [
         necessidadeDeAtencao: "Moderada",
         companhiaOuSozinho: "Ambos",
         idealPara: "Apartamentos, pessoas tranquilas",
-        pontosDeAtencao: "Cuidados com a pelagem"
+        pontosDeAtencao: "Cuidados com a pelagem",
+        id: "pers"
     },
     {
         raca: "Maine Coon",
@@ -233,7 +235,8 @@ let racasGatos = [
         pelagem: "Longa, densa e resistente à água",
         necessidadeDeAtencao: "Moderada",
         companhiaOuSozinho: "Ambos",
-        idealPara: "Famílias com crianças, casas com espaço"
+        idealPara: "Famílias com crianças, casas com espaço",
+        id: "mcoo"
     },
     {
         raca: "Sphynx",
@@ -245,7 +248,8 @@ let racasGatos = [
         pelagem: "Sem pelos",
         necessidadeDeAtencao: "Alta",
         companhiaOuSozinho: "Companhia",
-        idealPara: "Pessoas que gostam de gatos ativos"
+        idealPara: "Pessoas que gostam de gatos ativos",
+        id: "sphy"
     },
     {
         raca: "Ragdoll",
@@ -257,7 +261,8 @@ let racasGatos = [
         pelagem: "Longa, sedosa e macia",
         necessidadeDeAtencao: "Moderada",
         companhiaOuSozinho: "Ambos",
-        idealPara: "Famílias, pessoas tranquilas"
+        idealPara: "Famílias, pessoas tranquilas",
+        id: "ragd"
     },
     {
         raca: "Scottish Fold",
@@ -266,7 +271,8 @@ let racasGatos = [
         peso: 4,
         temperamento: "Calmo, gentil e curioso.",
         nivelDeAtividade: "Moderado",
-        pelagem: "Curta ou longa, orelhas dobradas"
+        pelagem: "Curta ou longa, orelhas dobradas",
+        id: "sfol"
     },
     {
         raca: "Bengal",
@@ -275,7 +281,8 @@ let racasGatos = [
         peso: 5,
         temperamento: "Ativo, curioso e atlético.",
         nivelDeAtividade: "Alto",
-        pelagem: "Manchada, semelhante à de um leopardo"
+        pelagem: "Manchada, semelhante à de um leopardo",
+        id: "beng"
     },
     {
         raca: "Azul Russo",
@@ -284,7 +291,8 @@ let racasGatos = [
         peso: 4,
         temperamento: "Calmo, gentil e reservado.",
         nivelDeAtividade: "Moderado",
-        pelagem: "Curta, densa e prateada"
+        pelagem: "Curta, densa e prateada",
+        id: "rblu"
     },
     {
         raca: "British Shorthair",
@@ -293,7 +301,8 @@ let racasGatos = [
         peso: 6,
         temperamento: "Calmo, gentil e independente.",
         nivelDeAtividade: "Baixo",
-        pelagem: "Curta, densa e macia"
+        pelagem: "Curta, densa e macia",
+        id: "bsho"
     },
     {
         raca: "Abissínio",
@@ -302,6 +311,7 @@ let racasGatos = [
         peso: 4,
         temperamento: "Ativo, curioso e inteligente.",
         nivelDeAtividade: "Alto",
-        pelagem: "Curta, densa e marcada"
+        pelagem: "Curta, densa e marcada",
+        id: "abys"
     }
 ];
