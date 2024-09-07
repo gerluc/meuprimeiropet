@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="extra.css">
+    <title>Meu Primeiro Pet</title>
+</head>
+
+<body>
+    <div class="background-image"></div>
+    <header>
+        <h1>Meu Primeiro Pet</h1>
+    </header>
+    <main>
+        <section>
+            <div class="entrada-dado">
+                <input type="text" placeholder="Digite a raça ou em poucas palavras as características do pet que você procura" id="campo-pesquisa">
+                <span>Características como por exemplo temperamento, nível de atividade, necessidade de espaço, necessidade de atenção, para quem é indicado</span>
+            </div>
+            <button id="botao-pesquisa" onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+
+
+    </main>
+    <!-- <footer>
+        <p>2024 - Meu Primeiro Pet. Todos os direitos reservados</p>
+    </footer> -->
+    <script src="imgraca.js"></script>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
