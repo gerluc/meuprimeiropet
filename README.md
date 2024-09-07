@@ -25,6 +25,10 @@ Esse projeto web feito durante a Imersão Dev Alura e Google Gemini te ajuda a e
 
 **Como usar:**
 
+**Opção 1:**
+1. Acesse a aplicação diretamente no meu link do Vercel: https://meuprimeiropet.vercel.app/
+
+**Opção 2:**
 1. **Clone o repositório:**
    ```bash
    git clone https://seu-repositorio.git
