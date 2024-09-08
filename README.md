@@ -1,6 +1,7 @@
 ## **README.md - Meu Primeiro Pet**
 
 ###  Encontre o Pet Perfeito para Você! 
+![nova apresentação2](https://github.com/user-attachments/assets/9ca5bf7e-37aa-4fc4-9abf-4f0b779ac8e6)
 
 **O que é esse projeto?**
 
