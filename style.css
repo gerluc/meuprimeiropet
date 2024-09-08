@@ -218,18 +218,37 @@ section button:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
-.card {
+/* .card { */
     
+    /* border: 1px solid #ccc; */
+    /* border-radius: 10px; */
+    /* -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+            /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+    /* padding: 20px; */
+    /* width: 25%; Ajuste o tamanho conforme necessário */
+    /* min-width: 300px; */
+    /* text-align: center; */
+    /* background-color:#fdf8e9; */
+    /* font-size: 0.75rem; */
+/* } */
+
+.card {
     border: 1px solid #ccc;
     border-radius: 10px;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     padding: 20px;
-    width: 25%; /* Ajuste o tamanho conforme necessário */
+    width: 25%;
     min-width: 300px;
     text-align: center;
-    background-color:#fdf8e9;
+    background-color: #fdf8e9;
     font-size: 0.75rem;
+    position: relative;
+    background-image: linear-gradient(to bottom, transparent, #fdf8e9 190px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    padding-top: 180px;
 }
 
 .card img {

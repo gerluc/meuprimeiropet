@@ -11,7 +11,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Idosos, solteiros, apartamentos",
         pontosDeAtencao: "Pelagem, olhos, dentes, obesidade",
-        id: "shihtzu"
+        id: "shihtzu",
+        img: "shih-tzu.png"
     },
     {
         raca: "Golden Retriever",
@@ -25,7 +26,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Famílias com crianças, pessoas ativas",
         pontosDeAtencao: "Displasia coxofemoral, otite externa",
-        id: "retriever-golden"
+        id: "retriever-golden",
+        img: "golden.png"
     },
     {
         raca: "Labrador Retriever",
@@ -39,7 +41,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Famílias com crianças, atividades ao ar livre",
         pontosDeAtencao: "Obesidade, displasia coxofemoral",
-        id: "labrador"
+        id: "labrador",
+        img: "labrador.png"
     },
     {
         raca: "Pastor Alemão",
@@ -53,7 +56,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Segurança",
         idealPara: "Famílias ativas, trabalho policial",
         pontosDeAtencao: "Displasia coxofemoral, problemas de saúde oculares",
-        id: "germanshepherd"
+        id: "germanshepherd",
+        img: "pastor.png"
     },
     {
         raca: "Beagle",
@@ -67,7 +71,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Famílias, caça",
         pontosDeAtencao: "Obesidade, problemas de pele",
-        id: "beagle"
+        id: "beagle",
+        img: "beagle.png"
     },
     {
         raca: "Bulldog Francês",
@@ -81,7 +86,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Apartamentos, pessoas tranquilas",
         pontosDeAtencao: "Problemas respiratórios, problemas de pele",
-        id: "bulldog-french"
+        id: "bulldog-french",
+        img: "bulldog-frances.png"
     },
     {
         raca: "Pug",
@@ -95,7 +101,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Apartamentos, pessoas tranquilas",
         pontosDeAtencao: "Problemas respiratórios, obesidade",
-        id: "pug"
+        id: "pug",
+        img: "pug.png"
     },
     {
         raca: "Yorkshire Terrier",
@@ -109,7 +116,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Apartamentos, pessoas solitárias",
         pontosDeAtencao: "Problemas dentários, luxação de patela",
-        id: "terrier-yorkshire"
+        id: "terrier-yorkshire",
+        img: "yorkshire.png"
     },
     {
         raca: "Chihuahua",
@@ -123,7 +131,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Apartamentos, pessoas solitárias",
         pontosDeAtencao: "Problemas dentários, luxação de patela",
-        id: "https://exemplo.com/imagens/chihuahua.jpg"
+        id: "chihuahua",
+        img: "chihuahua.png"
     },    
     {
         raca: "Lhasa Apso",
@@ -137,7 +146,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Apartamentos, pessoas tranquilas",
         pontosDeAtencao: "Problemas dentários, problemas oculares",
-        id: "lhasa"
+        id: "lhasa",
+        img: "lhasa-apso.png"
     },
     {
         raca: "Border Collie",
@@ -151,7 +161,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Trabalho",
         idealPara: "Pessoas ativas, esportes caninos",
         pontosDeAtencao: "Obesidade, problemas oculares",
-        id: "collie-border"
+        id: "collie-border",
+        img: "border-collie.png"
     },
     {
         raca: "Boxer",
@@ -165,7 +176,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Companhia",
         idealPara: "Famílias, atividades ao ar livre",
         pontosDeAtencao: "Displasia coxofemoral, problemas cardíacos",
-        id: "boxer"
+        id: "boxer",
+        img: "boxer.png"
     },
     {
         raca: "Rottweiler",
@@ -179,7 +191,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Segurança",
         idealPara: "Famílias com experiência, trabalho de guarda",
         pontosDeAtencao: "Displasia coxofemoral, problemas de saúde oculares",
-        id: "rottweiler"
+        id: "rottweiler",
+        img: "rottweiler.png"
     },
     {
         raca: "Doberman",
@@ -193,7 +206,8 @@ let racasCachorros = [
         companhiaOuSeguranca: "Segurança",
         idealPara: "Famílias com experiência, trabalho policial",
         pontosDeAtencao: "Displasia coxofemoral, problemas cardíacos",
-        id: "doberman"
+        id: "doberman",
+        img: "doberman.png"
     }    
 ];
 let racasGatos = [
@@ -209,7 +223,8 @@ let racasGatos = [
         companhiaOuSozinho: "Companhia",
         idealPara: "Pessoas ativas, apartamentos",
         pontosDeAtencao: "Problemas respiratórios em alguns casos",
-        id: "siam"
+        id: "siam",
+        img: "siames.png"
     },
     {
         raca: "Persa",
@@ -223,7 +238,8 @@ let racasGatos = [
         companhiaOuSozinho: "Ambos",
         idealPara: "Apartamentos, pessoas tranquilas",
         pontosDeAtencao: "Cuidados com a pelagem",
-        id: "pers"
+        id: "pers",
+        img: "persa.png"
     },
     {
         raca: "Maine Coon",
@@ -236,7 +252,8 @@ let racasGatos = [
         necessidadeDeAtencao: "Moderada",
         companhiaOuSozinho: "Ambos",
         idealPara: "Famílias com crianças, casas com espaço",
-        id: "mcoo"
+        id: "mcoo",
+        img: "maine-coon.png"
     },
     {
         raca: "Sphynx",
@@ -249,7 +266,8 @@ let racasGatos = [
         necessidadeDeAtencao: "Alta",
         companhiaOuSozinho: "Companhia",
         idealPara: "Pessoas que gostam de gatos ativos",
-        id: "sphy"
+        id: "sphy",
+        img: "sphynx.png"
     },
     {
         raca: "Ragdoll",
@@ -262,7 +280,8 @@ let racasGatos = [
         necessidadeDeAtencao: "Moderada",
         companhiaOuSozinho: "Ambos",
         idealPara: "Famílias, pessoas tranquilas",
-        id: "ragd"
+        id: "ragd",
+        img: "ragdoll.png"
     },
     {
         raca: "Scottish Fold",
@@ -272,7 +291,8 @@ let racasGatos = [
         temperamento: "Calmo, gentil e curioso.",
         nivelDeAtividade: "Moderado",
         pelagem: "Curta ou longa, orelhas dobradas",
-        id: "sfol"
+        id: "sfol",
+        img: "scottish-fold.png"
     },
     {
         raca: "Bengal",
@@ -282,7 +302,8 @@ let racasGatos = [
         temperamento: "Ativo, curioso e atlético.",
         nivelDeAtividade: "Alto",
         pelagem: "Manchada, semelhante à de um leopardo",
-        id: "beng"
+        id: "beng",
+        img: "bengal.png"
     },
     {
         raca: "Azul Russo",
@@ -292,7 +313,8 @@ let racasGatos = [
         temperamento: "Calmo, gentil e reservado.",
         nivelDeAtividade: "Moderado",
         pelagem: "Curta, densa e prateada",
-        id: "rblu"
+        id: "rblu",
+        img: "azul-russo.png"
     },
     {
         raca: "British Shorthair",
@@ -302,7 +324,8 @@ let racasGatos = [
         temperamento: "Calmo, gentil e independente.",
         nivelDeAtividade: "Baixo",
         pelagem: "Curta, densa e macia",
-        id: "bsho"
+        id: "bsho",
+        img: "british-shorthair.png"
     },
     {
         raca: "Abissínio",
@@ -312,6 +335,7 @@ let racasGatos = [
         temperamento: "Ativo, curioso e inteligente.",
         nivelDeAtividade: "Alto",
         pelagem: "Curta, densa e marcada",
-        id: "abys"
+        id: "abys",
+        img: "abissinio.png"
     }
 ];

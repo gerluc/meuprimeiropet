@@ -48,8 +48,8 @@ function pesquisar() {
                     // cria um novo elemento
                     url = "/img/cao.png"; // buscarImagem(cachorro.id, false);
                     resultados += `
-                    <div class="card">
-                        <img src="${url}" alt="Imagem do pet">
+                    <div class="card" style="background-image: linear-gradient(to bottom, transparent, #fdf8e9 190px), url(/img/racas/${cachorro.img});">
+                       <!-- img src="${url}" alt="Imagem do pet" --> 
                         <h2 class="cachorro">${cachorro.raca}</h2>
                         <table>
                             <tr>
@@ -117,8 +117,8 @@ function pesquisar() {
                 // cria um novo elemento
                 // url = buscarImagem(gato.id, false);
                 resultados += `
-                <div class="card">
-                    <img id="${gato.id}" src="/img/gato.png" alt="Imagem do gato">
+                <div class="card" style="background-image: linear-gradient(to bottom, transparent, #fdf8e9 190px), url(/img/racas/${gato.img});">
+
                     <h2 class="gato">${gato.raca}</h2>
                     <table>
                         <tr>
