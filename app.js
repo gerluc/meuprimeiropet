@@ -164,7 +164,7 @@ function pesquisar() {
                     </table>
                 </div>
             `;
-            buscarImagem(gato.id, true);
+            // buscarImagem(gato.id, true);
             break;
             }
         }
